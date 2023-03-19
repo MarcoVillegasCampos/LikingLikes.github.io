@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const colorBtns = document.querySelectorAll('.btn')
 
 colorBtns.forEach(function (colorBtn) {
@@ -9,3 +10,13 @@ colorBtns.forEach(function (colorBtn) {
     })
     
 })
+=======
+window.onload = function() {
+	var boton = document.getElementById("boton");
+	var mensaje = document.getElementById("mensaje");
+
+	boton.onclick = function() {
+		mensaje.classList.toggle("mostrar");
+	};
+}
+>>>>>>> 0448aaecaa51cf2a585d6f67643abc12ae20ecb7
