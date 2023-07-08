@@ -93,6 +93,8 @@ img{
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
+    border-radius: 50px;
+    animation: float 5s infinite;
 }
 .themes button{
     height: 25px;
@@ -121,7 +123,7 @@ img{
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    animation: float 3s infinite;
+    animation: float 4s infinite;
   }
   
   @keyframes float {
