@@ -139,4 +139,8 @@ img{
     }
   }
   
- 
+  @media (max-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
+  }
