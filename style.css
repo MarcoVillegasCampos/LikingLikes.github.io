@@ -139,8 +139,18 @@ img{
     }
   }
   
-  @media (max-width: 600px) {
-    .text {
-      font-size: 40px;
+  nav{
+    position: absolute;
+    background: var(--navColor);
+    box-shadow: var(--shadow);
+    height: 80px;
+    width: 100%;
+
+  }
+  @media (max-width:952px){
+
+    label.logo{
+        font-size:25px;
+        padding-left: 50px;
     }
   }
